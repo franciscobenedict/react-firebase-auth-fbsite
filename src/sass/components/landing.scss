@@ -1,0 +1,163 @@
+// .main {
+//   &.fullscreen {
+//     left: 0;
+//     padding: 0;
+//     position: absolute;
+//     top: 0;
+//
+//     .main_landing_container {
+//       display: table;
+//       height: 100%;
+//       width: 100%;
+//
+//       .main_holder {
+//         display: table-cell;
+//         vertical-align: middle;
+//       }
+//
+//       .duchess_logo_container {
+//         // height: 200px;
+//         margin: 0 auto 20px;
+//         max-width: 80%;
+//
+//         img {
+//           // height: 200px;
+//           // width: auto;
+//           height: auto;
+//           max-width: 150px;
+//           width: 100%;
+//         }
+//       }
+//     }
+//
+//     .grid_item {
+//       position: relative;
+//       .grid_link {
+//         background: rgba(0,0,0,0.4);
+//         display: table;
+//         // height: 50vh;
+//         // line-height: 50vh;
+//
+//         height: 100%;
+//         line-height: 100%;
+//
+//         text-align: center;
+//         transition: all .2s;
+//         width: 100%;
+//         &:hover {
+//           background: rgba(0,0,0,0.8);
+//           text-decoration: none;
+//         }
+//         .link_content {
+//           color: $white;
+//           display: table-cell;
+//           text-transform: uppercase;
+//           vertical-align: middle;
+//
+//           height: 80px;
+//           position: absolute;
+//           text-shadow: 2px 2px $black;
+//           top: calc(50% - 40px);
+//           width: 100%;
+//
+//           .grid_icon { font-size: 2em; margin-bottom: 15px; }
+//           .grid_text { font-size: 1em; }
+//         }
+//       }
+//
+//       // Images acquired from: "https://pixabay.com/photos/search/hotels/"
+//       // I do not own nor have the rights to these images. They are FREE DOWNLOADS!
+//       .grid_image {
+//         height: 100%;
+//         left: 0;
+//         position: absolute;
+//         top: 0;
+//         width: 100%;
+//         z-index: -1;
+//         // display: none;
+//       }
+//     }
+//
+//     .footer_landing_container {
+//       background: #444444;
+//       color: #FFFFFF;
+//       font-size: 0.8rem;
+//       .copyright {
+//         margin: 20px 0;
+//       }
+//     }
+//
+//     @include respond-above(sm) {
+//       .main_landing_container {
+//         .duchess_logo_container {
+//           // height: 100px;
+//           margin-top: 20px;
+//           img { max-width: 150px; }
+//         }
+//
+//         .user_welcome, .user_login_btn {
+//           margin-top: 20px;
+//         }
+//       }
+//
+//       .landing_grid_item2 {
+//         border-right: 1px solid rgba(255, 255, 255, 0.8);
+//         border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+//       }
+//       .landing_grid_item3 {
+//         border-left: 1px solid rgba(255, 255, 255, 0.8);
+//         border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+//       }
+//       .landing_grid_item4 {
+//         border-right: 1px solid rgba(255, 255, 255, 0.8);
+//         border-top: 1px solid rgba(255, 255, 255, 0.8);
+//         border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+//       }
+//       .landing_grid_item5 {
+//         border-top: 1px solid rgba(255, 255, 255, 0.8);
+//         border-left: 1px solid rgba(255, 255, 255, 0.8);
+//         border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+//       }
+//       .landing_grid_item6 {
+//         border-right: 1px solid rgba(255, 255, 255, 0.8);
+//         border-top: 1px solid rgba(255, 255, 255, 0.8);
+//       }
+//       .landing_grid_item7 {
+//         border-left: 1px solid rgba(255, 255, 255, 0.8);
+//         border-top: 1px solid rgba(255, 255, 255, 0.8);
+//       }
+//
+//       .grid_item {
+//         .grid_link {
+//           // height: 100%;
+//           // line-height: 100%;
+//           .link_content {
+//             // height: 80px;
+//             // position: absolute;
+//             // top: calc(50% - 40px);
+//             // width: 100%;
+//           }
+//         }
+//
+//         .grid_image {
+//           height: 100%;
+//           width: 100%;
+//         }
+//       }
+//
+//       .footer_landing_container {
+//         background: #444444;
+//         color: #FFFFFF;
+//         font-size: 0.8rem;
+//       }
+//     }
+//
+//     @include respond-above(md) {
+//       .main_landing_container {
+//         .duchess_logo_container {
+//           img { max-width: 250px; }
+//         }
+//       }
+//     }
+//   }
+// }

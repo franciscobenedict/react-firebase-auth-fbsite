@@ -1,0 +1,29 @@
+#root {
+
+  @import './navigation';
+  @import './footer';
+
+  .main {
+  //   background: $pale-purple;
+    padding-top: 70px;
+  }
+
+  // HEADINGS
+  h1 { font-size: $heading1; }
+  h2 { font-size: $heading2; }
+  h3 { font-size: $heading3; }
+  h4 { font-size: $heading4; }
+  h5 { font-size: $heading5; }
+
+  @include respond-below(md) {
+    // HEADINGS
+    h1 { font-size: $heading1_s; }
+    h2 { font-size: $heading2_s; }
+    h3 { font-size: $heading3_s; }
+    h4 { font-size: $heading4_s; }
+    h5 { font-size: $heading5_s; }
+
+    // padding-top: 100px;
+    padding-bottom: 0;
+  }
+}

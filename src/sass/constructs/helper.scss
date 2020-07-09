@@ -1,0 +1,68 @@
+//_______________________________
+// Aligned content middle
+//_______________________________
+.align_middle_container {
+  display: table;
+  &._100_px {
+    height: 100px;
+  }
+  &._100_percent {
+    height: 100%;
+  }
+  .align_content_middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  @include respond-below(md) {
+    &._0 {
+      height: 0 !important;
+    }
+  }
+}
+.align_text_horizontal_center {
+  text-align: center;
+  width: 100%;
+}
+
+//_______________________________
+// ERROR TEXT
+//_______________________________
+.error_text {
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px solid red;
+  border-radius: 5px;
+  color: $red;
+  font-size: $large_font_size;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+//_______________________________
+// ITALIC TEXT
+//_______________________________
+.text_italic {
+  font-style: italic;
+}
+
+//_______________________________
+// SOCIAL ICONS
+//_______________________________
+// .social_icons {
+//   margin: 20px 0;
+//   text-align: center;
+//   a.social_icon {
+//     background: $medium_grey;
+//     border: 10px solid $medium_grey;
+//     border-radius: 10px;
+//     color: $dark_grey;
+//     display:inline-block;
+//     height: 45px;
+//     margin: 10px;
+//     width: 45px;
+//     &:hover {
+//       background: $very_dark_grey;
+//       border: 10px solid $very_dark_grey;
+//       color: $medium_grey;
+//     }
+//   }
+// }

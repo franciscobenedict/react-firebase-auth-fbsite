@@ -1,0 +1,126 @@
+// // Navigation styles
+// .navbar {
+//   background-color: $black_opacity_08;
+//   padding: 0.3rem 1rem;
+//
+//   // LOGO
+//   .navbar-brand {
+//     padding: 0;
+//     img {
+//       height: 40px;
+//       width: auto;
+//     }
+//   }
+//
+//   // USER ICON
+//   .user_icon_dropdown {
+//     position: absolute;
+//     right: 16px;
+//     top: 8px;
+//     transition: all .2s;
+//
+//     .username {
+//       font-weight: $bold;
+//       padding: .25rem 1.5rem;
+//       position: relative;
+//       top: -8px;
+//       background: $pale-purple;// $ultra_light_grey;
+//       border-top-left-radius: .25rem;
+//       border-top-right-radius: .25rem;
+//     }
+//
+//     .dropdown-toggle {
+//       border-radius: 50%;
+//       border: 1px solid;
+//       color: $pale-purple;
+//       height: 38px;
+//       padding: 6px 8px;
+//       width: 38px;
+//
+//       &:after {
+//         display: none;
+//       }
+//
+//       &:hover {
+//         background: rgba(255,255,255,0.4);
+//       }
+//     }
+//
+//     .dropdown-menu {
+//       left: auto;
+//       right: 0;
+//     }
+//
+//     @include respond-below(md) {
+//       right: 100px;
+//     }
+//   }
+//
+//   // HAMBURGER
+//   .navbar-toggler {
+//     background-color: rgba(255,255,255,0.2);
+//     border-color: rgba(255,255,255,0.5);
+//     &:hover {
+//       background-color: rgba(255,255,255,0.5);
+//     }
+//   }
+//
+//   // LINKS
+//   .navbar-nav {
+//     // Menu
+//     .nav-link {
+//       color: $nav_link_color;
+//       font-size: 1rem;
+//       text-transform: uppercase;
+//       transition: all .2s;
+//
+//       border-radius: 3px;
+//       margin: 10px 0;
+//       padding: 10px;
+//
+//       &:hover {
+//         background: $nav_link_color_hover;
+//         color: $white;
+//       }
+//
+//       &.active {
+//         background: $dark_grey;
+//         color: $nav_link_color_active;
+//         position: relative;
+//       }
+//
+//
+//       @include respond-above(md) {
+//         margin:  0;
+//         padding: 10px;
+//         &.active {
+//           background: transparent;
+//           &:after {
+//             content: "";
+//             position: absolute;
+//             white-space: nowrap;
+//             top: 38px;
+//             left: calc(50% - 10px);
+//             width: 0;
+//             height: 0;
+//             border-left: 10px solid transparent;
+//             border-right: 10px solid transparent;
+//             border-bottom: 10px solid $pale-purple;
+//           }
+//         }
+//
+//         &:hover {
+//           background: $nav_link_color_hover;
+//           color: $white;
+//         }
+//       }
+//     }
+//   }
+//
+//   // SEARCH BAR
+//   form {
+//     &.search_bar_form {
+//       margin-bottom: 0;
+//     }
+//   }
+// }
